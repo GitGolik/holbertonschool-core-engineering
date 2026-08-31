@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-pi = 22/7
+pi = 3.14
 
 
 print("Language: Python")
