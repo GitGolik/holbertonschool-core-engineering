@@ -3,7 +3,7 @@
 number = __import__('random').randint(-10000, 10000)
 last = number % 10
 
-if number < 0 and digit !=0:
+if number < 0 and last !=0:
     last -= 10
 
 if last == 0:
