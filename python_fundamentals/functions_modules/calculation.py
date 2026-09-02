@@ -8,7 +8,7 @@ from calculator_1 import division
 a = 10
 b = 5
 
-print(addition(a, b))
-print(subtraction(a, b))
-print(multiplication(a, b))
-print(division(a, b))
+print("{}".format(addition(a, b)))
+print("{}".format(subtraction(a, b)))
+print("{}".format(multiplication(a, b)))
+print("{}".format(division(a, b)))
