@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-from calculator_1 import addition
-from calculator_1 import subtraction
-from calculator_1 import multiplication
-from calculator_1 import division
+import calculator_1
 
 a = 10
 b = 5
