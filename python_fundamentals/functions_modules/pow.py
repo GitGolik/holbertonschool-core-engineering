@@ -2,10 +2,7 @@
 
 def pow(a, b):
 
-    result = 0
-
-    if b == 0:
-        result = result + 1
+    result = 1
 
     for compt in range(b):
         result = result * a
