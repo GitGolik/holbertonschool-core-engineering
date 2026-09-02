@@ -8,4 +8,5 @@ def uppercase(str):
             character = chr(code - 32)
 
         print(character, end="")
+
     print()
