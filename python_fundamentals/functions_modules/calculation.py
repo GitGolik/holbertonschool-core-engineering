@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+from calculator_1 import addition
+from calculator_1 import subtraction
+from calculator_1 import multiplication
+from calculator_1 import division
+
+a = 10
+b = 5
+
+print(addition(a, b))
+print(subtraction(a, b))
+print(multiplication(a, b))
+print(division(a, b))
