@@ -7,7 +7,7 @@ def uppercase(str):
         code = ord(character)
 
         if ord('a') <= code <= ord('z'):
-            character = chr(code -32)
+            character = chr(code - 32)
 
         result += character
 
