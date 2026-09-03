@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-element_at = __import__('element_at').element_at
+replace_in_list = __import__('replace_in_list').replace_in_list
 
-my_list = ["a", "b", "c", "d", "e"]
-print(element_at(my_list, 3))
-print(element_at(my_list, 0))
-print(element_at(my_list, 4))
-print(element_at(my_list, 5))
-print(element_at(my_list, -14))
-print(element_at(my_list, 32))
-print(element_at(my_list, 15))
+
+my_list = [1, 2, 3, 4, 5]
+print(replace_in_list(my_list, 3, 99))
+print(replace_in_list(my_list, 2, 9))
+print(replace_in_list(my_list, 5, 43))
+print(replace_in_list(my_list, 0, 234))
