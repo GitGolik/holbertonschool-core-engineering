@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 
 
-safe_print_integer = __import__('safe_print_integer').safe_print_integer
+safe_print_division = __import__('safe_print_division').safe_print_division
 
-value = 2
 
-valueTorF = safe_print_integer(value)
-print(f"{valueTorF}")
+a = 12
+b = 2
+result = safe_print_division(a, b)
+print("{:d} / {:d} = {}".format(a, b, result))
+
+
+a = 12
+b = 0
+result = safe_print_division(a, b)
+print("{:d} / {:d} = {}".format(a, b, result))
