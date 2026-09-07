@@ -1,1 +1,1 @@
-learning and testikng of python exception handling
+learning and testing of python exception handling
