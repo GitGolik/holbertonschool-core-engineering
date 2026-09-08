@@ -1,12 +1,10 @@
-Square = __import__('6-square').Square
+Rectangle = __import__('1-rectangle').Rectangle
 
 
-my_square = Square(5, (0, 0))
-print(my_square)
+my_rectangle = Rectangle(2, 4)
+print(my_rectangle.__dict__)
 
 
-print("--")
-
-
-my_square = Square(5, (4, 1))
-print(my_square)
+my_rectangle.width = 10
+my_rectangle.height = 3
+print(my_rectangle.__dict__)
