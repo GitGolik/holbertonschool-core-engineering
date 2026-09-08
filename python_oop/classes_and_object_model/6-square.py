@@ -56,8 +56,14 @@ class Square:
         horizontal_offset = " " * self.__position[0]
         line = horizontal_offset + "#" * self.__size
 
+        output = ""
         for _ in range(self.__size):
-            print(line)
+            output += line + "\n"
+
+        # Ajout d'un \n supplémentaire pour coller au test
+        output += "\n"
+
+        print(output, end="")
 
     def __str__(self):
         """Return the square as a string made of '#' characters."""
