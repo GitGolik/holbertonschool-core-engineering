@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """shibang python module"""
 
+
 class Rectangle:
     """a ractangle with width and height attributes"""
 
