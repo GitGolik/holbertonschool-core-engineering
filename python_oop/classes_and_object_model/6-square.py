@@ -70,6 +70,8 @@ class Square:
         for _ in range(self.__size):
             print(line)
 
+        print()
+
 
     def __str__(self):
         """Return the square as a string made of '#' characters."""
