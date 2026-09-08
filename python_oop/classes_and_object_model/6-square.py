@@ -58,7 +58,17 @@ class Square:
 
     def my_print(self):
         """Print the square using the character '#'."""
-        print(self)
+        if self.__size == 0:
+            print()
+            return
+
+
+        horizontal_offset = " " * self.__position[0]
+        line = horizontal_offset + "#" * self.__size
+
+
+        for _ in range(self.__size):
+            print(line)
 
 
     def __str__(self):
