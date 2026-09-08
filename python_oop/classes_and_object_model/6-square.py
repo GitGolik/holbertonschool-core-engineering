@@ -63,12 +63,14 @@ class Square:
             return
 
 
+        # lignes vides avant le carré (position[1])
         for _ in range(self.__position[1]):
             print()
 
 
-        horizontal_offset = " " * self.__position[0]
-        line = horizontal_offset + "#" * self.__size
+        # chaque ligne du carré
+        spaces = " " * self.__position[0]
+        line = spaces + "#" * self.__size
 
 
         for _ in range(self.__size):
@@ -81,12 +83,9 @@ class Square:
             return ""
 
 
-        horizontal_offset = " " * self.__position[0]
-        line = horizontal_offset + "#" * self.__size
+        spaces = " " * self.__position[0]
+        line = spaces + "#" * self.__size
 
 
-        square_lines = [line] * self.__size
-        vertical_offset = [""] * self.__position[1]
-
-
-        return "\n".join(vertical_offset + square_lines)
+        # on construit juste les lignes du carré, pas de sauts de ligne vides
+        return "\n".join([line for _ in range(self.__size)])
