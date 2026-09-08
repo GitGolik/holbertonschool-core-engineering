@@ -2,4 +2,5 @@
 """Module that defines the Square class."""
 
 class Square:
+    """Represents a square"""
     pass
