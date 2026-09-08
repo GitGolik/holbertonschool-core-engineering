@@ -1,22 +1,12 @@
-Square = __import__('5-square').Square
+Square = __import__('6-square').Square
 
 
-my_square = Square(3)
-my_square.my_print()
-
-
-print("--")
-
-
-my_square.size = 10
-my_square.my_print()
+my_square = Square(5, (0, 0))
+print(my_square)
 
 
 print("--")
 
 
-my_square.size = 0
-my_square.my_print()
-
-
-print("--")
+my_square = Square(5, (4, 1))
+print(my_square)
