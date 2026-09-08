@@ -79,9 +79,8 @@ class Square:
         Uses position to add leading spaces.
         If size == 0, prints an empty line.
         """
-        print(self)
         if self.__size == 0:
-            print()
+            print(self)
             return
 
 
