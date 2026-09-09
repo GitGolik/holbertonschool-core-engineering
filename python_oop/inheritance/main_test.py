@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-Square = __import__('1-square').Square
+Square = __import__('2-square').Square
 
 
 s = Square(13)
