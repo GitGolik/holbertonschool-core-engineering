@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
-
-from animals import Animal, Dog, Cat
-
-
-bobby = Dog()
-garfield = Cat()
+from shapes import Circle, Rectangle, shape_info
 
 
-print(bobby.sound())
-print(garfield.sound())
+circle = Circle(radius=5)
+rectangle = Rectangle(width=4, height=7)
 
 
-animal = Animal()
-print(animal.sound())
+shape_info(circle)
+shape_info(rectangle)
+
