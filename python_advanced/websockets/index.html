@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebSocket Echo</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <main class="chat">
+        <h1>WebSocket Echo</h1>
+
+        <div id="messages" class="messages"></div>
+
+        <form id="chat-form" class="chat-form">
+            <input
+                id="message-input"
+                class="message-input"
+                type="text"
+                placeholder="Type a message..."
+                autocomplete="off"
+            >
+            <button type="submit">Send</button>
+        </form>
+    </main>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>
